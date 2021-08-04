@@ -14,9 +14,9 @@ script takes raw input to create an interactive experience for the user.
 ### Files Used
 - bikeshare_2.py: python script that takes raw input and creates an interactive
 experience for the user and computes descriptive statistics
-- chicago.csv: contains bikeshare data for chicago
-- new_york_city.csv: contains bikeshare data for new york city
-- washington.csv: contains bikeshareh data for washington
+- chicago.csv: contains bikeshare data for Chicago
+- new_york_city.csv: contains bikeshare data for New York City
+- washington.csv: contains bikeshareh data for Washington
 - .gitignore: contains reference to *.csv files
 
 ### Credits
