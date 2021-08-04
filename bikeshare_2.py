@@ -137,6 +137,7 @@ def load_data(city, month, day):
         raw_data = input('Would you like to see 5 lines of raw data? Please enter "yes" or "no"\n').lower()
         if raw_data == 'yes':
             print(df.iloc[row:row + 5])
+            # continue to show a new 5 rows of data when the user says yes
             row += 5
         elif raw_data == 'no':
             break
