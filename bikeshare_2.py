@@ -31,7 +31,7 @@ def get_filters():
         else:
             print('Please enter a valid input')
 
-    # get user input for month (all, january, february, ... , june)
+    # get user input for month (all, January, February, ... , June)
     while True:
         prompt = input('Would you like to filter the data by month? Please enter "yes" or "no" \n').lower()
         if prompt == 'yes':
