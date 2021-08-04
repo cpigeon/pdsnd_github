@@ -16,7 +16,7 @@ def get_filters():
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     """
     print('Hello! Let\'s explore some US bikeshare data!')
-    # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
+    # get user input for city (Chicago, New York City, Washington). HINT: Use a while loop to handle invalid inputs
     while True:
         city = input('Would you like to see data for Chicago, New York City, or Washington?\n').lower()
         if city == 'chicago':
@@ -31,7 +31,7 @@ def get_filters():
         else:
             print('Please enter a valid input')
 
-    # get user input for month (all, january, february, ... , june)
+    # get user input for month (all, January, February, ... , June)
     while True:
         prompt = input('Would you like to filter the data by month? Please enter "yes" or "no" \n').lower()
         if prompt == 'yes':
@@ -137,6 +137,7 @@ def load_data(city, month, day):
         raw_data = input('Would you like to see 5 lines of raw data? Please enter "yes" or "no"\n').lower()
         if raw_data == 'yes':
             print(df.iloc[row:row + 5])
+            # continue to show a new 5 rows of data when the user says yes
             row += 5
         elif raw_data == 'no':
             break
